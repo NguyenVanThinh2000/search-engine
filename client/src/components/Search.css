@@ -1,0 +1,151 @@
+.input_search{
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+.input_search .big_logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.input_search .big_logo img{
+    width: 400px;
+    height: 160px;
+}
+.form_input{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    max-width: 584px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+.form_input:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.input_box{
+    display: block;
+    margin-left: 20px;
+    height: 100%;
+    max-width: 520px;
+    width: 90%;
+    outline: none;
+    border: none;
+}
+.btn_search{
+    display: block;
+    height: 100%;
+    width: 44px;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+ion-icon{
+    font-size: 24px;
+    color: #9aa0a6;
+}
+
+.results{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.results h3{
+    font-size: 20px;
+    color: #1a0dab;
+    margin-bottom: 5px;
+}
+.results p{
+    display: block;
+    display: -webkit-box;
+    max-height: 74px;
+    font-size: 16px;
+    -webkit-box-orient: vertical;
+    visibility: visible;
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    height: 80px;
+}
+.form_checkbox{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-top: 30px;
+}
+.form_checkbox label{
+    margin-right: 10px;
+}
+.form_checkbox input{
+    margin-left: 5px;
+    color: red;
+}
+
+
+/* You can remove these code below*/
+:root {
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+}*{box-sizing:border-box;}input,button,textarea{border:0;outline:none;}
+  /* Main code */
+  
+.dots-loading {
+    display: flex;
+    justify-content: center;
+}
+.hide-dots-loading{
+    display: none;
+}
+.dots-loading > div {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: #ccc;
+    margin: 0 1rem;
+    animation: dotLoading 1s forwards infinite linear;
+}
+
+.dots-loading > div:nth-child(2) {
+animation-delay: 0.1s;
+}
+.dots-loading > div:nth-child(3) {
+    animation-delay: 0.2s;
+}
+.dots-loading > div:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+@keyframes dotLoading {
+to {
+    opacity: 0;
+}
+}
+
+
+.time p{
+    width: auto;
+    max-width: 584px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    border-top: 1px solid #ebebeb;
+    font-size: 16px;
+    color: #70757a;
+}
