@@ -2,7 +2,6 @@ import numpy as np
 from flask import Flask
 from flask_cors import CORS, cross_origin
 from flask import request, jsonify
-import matplotlib.pyplot as plt
 import nltk
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
