@@ -1,4 +1,3 @@
-import numpy as np
 from flask import Flask
 from flask_cors import CORS, cross_origin
 from flask import request, jsonify
